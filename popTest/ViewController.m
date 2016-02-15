@@ -31,4 +31,14 @@
     POPBasicAnimationViewController *basicPage=[[POPBasicAnimationViewController alloc]init];
     [self.navigationController pushViewController:basicPage animated:YES];
 }
+
+- (IBAction)spingAction:(id)sender {
+    POPSpringAnimationViewController *basicPage=[[POPSpringAnimationViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
+
+- (IBAction)OtherAction:(id)sender {
+    OtherViewController *basicPage=[[OtherViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
 @end

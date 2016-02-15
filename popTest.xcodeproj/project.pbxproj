@@ -16,6 +16,8 @@
 		348CC9EB1C6F7A9F005DC8FE /* popTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9EA1C6F7A9F005DC8FE /* popTestTests.m */; };
 		348CC9F61C6F7A9F005DC8FE /* popTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9F51C6F7A9F005DC8FE /* popTestUITests.m */; };
 		34DDC5DD1C71B8E0004C6798 /* POPBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A91C7205B1006C692C /* OtherViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FE0087CC79765E61CACF546F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 203936C51C5B1348ADD07F87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,10 @@
 		348CC9F71C6F7A9F005DC8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DDC5DB1C71B8E0004C6798 /* POPBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationViewController.h; sourceTree = "<group>"; };
 		34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPBasicAnimationViewController.m; sourceTree = "<group>"; };
+		34E635A51C71F566006C692C /* POPSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationViewController.h; sourceTree = "<group>"; };
+		34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPSpringAnimationViewController.m; sourceTree = "<group>"; };
+		34E635A81C7205B1006C692C /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		34E635A91C7205B1006C692C /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		7A2D7081B2C05A80BC627B85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A033D4BA4B6BDA2F67B06B1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +128,10 @@
 				348CC9D01C6F7A9F005DC8FE /* Supporting Files */,
 				34DDC5DB1C71B8E0004C6798 /* POPBasicAnimationViewController.h */,
 				34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */,
+				34E635A51C71F566006C692C /* POPSpringAnimationViewController.h */,
+				34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */,
+				34E635A81C7205B1006C692C /* OtherViewController.h */,
+				34E635A91C7205B1006C692C /* OtherViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -337,6 +347,8 @@
 				34DDC5DD1C71B8E0004C6798 /* POPBasicAnimationViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
+				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
+				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
 				348CC9D21C6F7A9F005DC8FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,15 @@
 #import <pop/POP.h>
 
 #import "POPBasicAnimationViewController.h"
+#import "POPSpringAnimationViewController.h"
+
+#import "OtherViewController.h"
 
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
+- (IBAction)spingAction:(id)sender;
 
+- (IBAction)OtherAction:(id)sender;
 
 @end
 

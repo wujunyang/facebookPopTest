@@ -27,43 +27,43 @@ static CGFloat const kPOPThresholdRadius = 0.01;
 #pragma mark - Static
 
 // CALayer
-NSString * const kPOPLayerBackgroundColor = @"backgroundColor";
-NSString * const kPOPLayerBounds = @"bounds";
-NSString * const kPOPLayerCornerRadius = @"cornerRadius";
-NSString * const kPOPLayerBorderWidth = @"borderWidth";
-NSString * const kPOPLayerBorderColor = @"borderColor";
-NSString * const kPOPLayerOpacity = @"opacity";
-NSString * const kPOPLayerPosition = @"position";
+NSString * const kPOPLayerBackgroundColor = @"backgroundColor";  //背景色
+NSString * const kPOPLayerBounds = @"bounds";  //坐标
+NSString * const kPOPLayerCornerRadius = @"cornerRadius";  //圆形 值越大,角就越圆
+NSString * const kPOPLayerBorderWidth = @"borderWidth";  //边框宽度
+NSString * const kPOPLayerBorderColor = @"borderColor";  //边框色
+NSString * const kPOPLayerOpacity = @"opacity"; //透明度
+NSString * const kPOPLayerPosition = @"position"; //位置 position是相对于屏幕的
 NSString * const kPOPLayerPositionX = @"positionX";
 NSString * const kPOPLayerPositionY = @"positionY";
-NSString * const kPOPLayerRotation = @"rotation";
+NSString * const kPOPLayerRotation = @"rotation"; //旋转
 NSString * const kPOPLayerRotationX = @"rotationX";
 NSString * const kPOPLayerRotationY = @"rotationY";
-NSString * const kPOPLayerScaleX = @"scaleX";
-NSString * const kPOPLayerScaleXY = @"scaleXY";
-NSString * const kPOPLayerScaleY = @"scaleY";
-NSString * const kPOPLayerSize = @"size";
+NSString * const kPOPLayerScaleX = @"scaleX"; //缩放系数
+NSString * const kPOPLayerScaleXY = @"scaleXY"; //XY缩放系数
+NSString * const kPOPLayerScaleY = @"scaleY"; //Y缩放系数
+NSString * const kPOPLayerSize = @"size";  //大小
 NSString * const kPOPLayerSubscaleXY = @"subscaleXY";
 NSString * const kPOPLayerSubtranslationX = @"subtranslationX";
 NSString * const kPOPLayerSubtranslationXY = @"subtranslationXY";
 NSString * const kPOPLayerSubtranslationY = @"subtranslationY";
 NSString * const kPOPLayerSubtranslationZ = @"subtranslationZ";
-NSString * const kPOPLayerTranslationX = @"translationX";
-NSString * const kPOPLayerTranslationXY = @"translationXY";
-NSString * const kPOPLayerTranslationY = @"translationY";
-NSString * const kPOPLayerTranslationZ = @"translationZ";
-NSString * const kPOPLayerZPosition = @"zPosition";
-NSString * const kPOPLayerShadowColor = @"shadowColor";
-NSString * const kPOPLayerShadowOffset = @"shadowOffset";
-NSString * const kPOPLayerShadowOpacity = @"shadowOpacity";
-NSString * const kPOPLayerShadowRadius = @"shadowRadius";
+NSString * const kPOPLayerTranslationX = @"translationX"; //X轴平移量
+NSString * const kPOPLayerTranslationXY = @"translationXY"; //XY轴平移量
+NSString * const kPOPLayerTranslationY = @"translationY"; //Y轴平移量
+NSString * const kPOPLayerTranslationZ = @"translationZ"; //Z轴平移量
+NSString * const kPOPLayerZPosition = @"zPosition";  //遮挡属性
+NSString * const kPOPLayerShadowColor = @"shadowColor"; //设置阴影
+NSString * const kPOPLayerShadowOffset = @"shadowOffset"; //阴影偏移
+NSString * const kPOPLayerShadowOpacity = @"shadowOpacity"; //阴影透明度
+NSString * const kPOPLayerShadowRadius = @"shadowRadius"; //阴影半径
 
 // CAShapeLayer
-NSString * const kPOPShapeLayerStrokeStart = @"shapeLayer.strokeStart";
-NSString * const kPOPShapeLayerStrokeEnd = @"shapeLayer.strokeEnd";
-NSString * const kPOPShapeLayerStrokeColor = @"shapeLayer.strokeColor";
+NSString * const kPOPShapeLayerStrokeStart = @"shapeLayer.strokeStart";//strokeStart  动画的fromValue = 0，toValue = 1 表示从路径的0位置画到1 怎么画是按照清除开始的位置也就是清除0 一直清除到1 效果就是一条路径慢慢的消失  strokeStart  动画的fromValue = 1，toValue = 0 表示从路径的1位置画到0 怎么画是按照清除开始的位置也就是1 这样开始的路径是空的（即都被清除掉了）一直清除到0 效果就是一条路径被反方向画出来
+NSString * const kPOPShapeLayerStrokeEnd = @"shapeLayer.strokeEnd";// strokeEnd  动画的fromValue = 0，toValue = 1  表示 这里我们分3个点说明动画的顺序  strokeEnd从结尾开始清除 首先整条路径先清除后2/3，接着清除1/3 效果就是正方向画出路径     strokeEnd  动画的fromValue = 1，toValue = 0 效果就是反方向路径慢慢消失
+NSString * const kPOPShapeLayerStrokeColor = @"shapeLayer.strokeColor";  //画笔的色
 NSString * const kPOPShapeLayerFillColor = @"shapeLayer.fillColor";
-NSString * const kPOPShapeLayerLineWidth = @"shapeLayer.lineWidth";
+NSString * const kPOPShapeLayerLineWidth = @"shapeLayer.lineWidth"; //线的宽度
 NSString * const kPOPShapeLayerLineDashPhase = @"shapeLayer.lineDashPhase";
 
 // NSLayoutConstraint

@@ -24,11 +24,33 @@
                                     <action selector="PopBasicAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNc-hD-FVo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TF-4Q-65j">
+                                <rect key="frame" x="27" y="136" width="144" height="30"/>
+                                <state key="normal" title="POPSpringAnimation"/>
+                                <connections>
+                                    <action selector="spingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="990-MC-tbH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfB-r7-QmZ">
+                                <rect key="frame" x="27" y="312" width="75" height="30"/>
+                                <state key="normal" title="综合小实例"/>
+                                <connections>
+                                    <action selector="OtherAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wq1-Ld-bTn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="zTV-kD-9qv" secondAttribute="trailing" constant="129" id="8gA-PK-jMN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="NSG-kE-Hyf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6TF-4Q-65j" secondAttribute="trailing" constant="129" id="UjQ-9D-8db"/>
+                            <constraint firstItem="6TF-4Q-65j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="eDM-hl-Ddg"/>
+                            <constraint firstItem="6TF-4Q-65j" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="13" id="fgj-cC-7ga"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="226" id="iWM-if-v6s"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="146" id="nIb-9s-x1u"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p18-LX-d7p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KfB-r7-QmZ" secondAttribute="trailing" constant="198" id="rKM-zW-mrR"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uLd-bB-arm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="445" id="xuG-nV-fFp"/>
                         </constraints>
