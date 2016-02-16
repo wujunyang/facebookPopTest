@@ -41,4 +41,9 @@
     OtherViewController *basicPage=[[OtherViewController alloc]init];
     [self.navigationController pushViewController:basicPage animated:YES];
 }
+
+- (IBAction)decayAction:(id)sender {
+    POPDecayAnimationViewController *basicPage=[[POPDecayAnimationViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
 @end

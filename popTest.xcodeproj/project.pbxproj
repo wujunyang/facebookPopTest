@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340494921C72EA7400D6120F /* POPDecayAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		348CC9D21C6F7A9F005DC8FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D11C6F7A9F005DC8FE /* main.m */; };
 		348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D41C6F7A9F005DC8FE /* AppDelegate.m */; };
 		348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D71C6F7A9F005DC8FE /* ViewController.m */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		203936C51C5B1348ADD07F87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		340494911C72EA7400D6120F /* POPDecayAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationViewController.h; sourceTree = "<group>"; };
+		340494921C72EA7400D6120F /* POPDecayAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPDecayAnimationViewController.m; sourceTree = "<group>"; };
 		348CC9CD1C6F7A9F005DC8FE /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348CC9D11C6F7A9F005DC8FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		348CC9D31C6F7A9F005DC8FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */,
 				34E635A51C71F566006C692C /* POPSpringAnimationViewController.h */,
 				34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */,
+				340494911C72EA7400D6120F /* POPDecayAnimationViewController.h */,
+				340494921C72EA7400D6120F /* POPDecayAnimationViewController.m */,
 				34E635A81C7205B1006C692C /* OtherViewController.h */,
 				34E635A91C7205B1006C692C /* OtherViewController.m */,
 			);
@@ -349,6 +354,7 @@
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
+				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
 				348CC9D21C6F7A9F005DC8FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,10 @@
 @interface POPBasicAnimationViewController ()
 @property(strong,nonatomic)UIView *myView,*myXView,*myBackColorView,*mytimingFunctionLinearView,*mytimingFunctionEaseInEaseOutView,*mySizeView;
 @property(strong,nonatomic)UILabel *myLabel;
+
+
+@property(nonatomic)CALayer *myCriLayer;
+@property (nonatomic) BOOL animated;
 @end
 
 @implementation POPBasicAnimationViewController
@@ -133,7 +137,27 @@
         }
     }];
     [self.myLabel pop_addAnimation:anLabelBasic forKey:@"myLabelAnimation"];
+    
+    
+    //8:初始化一个CALayer层
+    if (self.myCriLayer==nil) {
+        self.myCriLayer=[CALayer layer];
+        [self.myCriLayer pop_removeAllAnimations];
+        self.myCriLayer.opacity = 1.0;
+        self.myCriLayer.transform = CATransform3DIdentity;
+        [self.myCriLayer setMasksToBounds:YES];
+        [self.myCriLayer setBackgroundColor:[UIColor colorWithRed:0.16 green:0.72 blue:1 alpha:1].CGColor];
+        [self.myCriLayer setCornerRadius:15.0f];
+        [self.myCriLayer setBounds:CGRectMake(0.0f, 0.0f, 30.0f, 30.0f)];
+        self.myCriLayer.position = CGPointMake(self.view.center.x, 380.0);
+        [self.view.layer addSublayer:self.myCriLayer];
+    }
 
+    //增加一个动画 类似心跳的效果
+    [self performAnimation];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -141,14 +165,29 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)performAnimation
+{
+    [self.myCriLayer pop_removeAllAnimations];
+    POPBasicAnimation *anim = [POPBasicAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
+    
+    if (self.animated) {
+        anim.toValue = [NSValue valueWithCGPoint:CGPointMake(1.0, 1.0)];
+    }else{
+        anim.toValue = [NSValue valueWithCGPoint:CGPointMake(2.0, 2.0)];
+    }
+    
+    anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];  //不同的类型 心跳会不一样
+    
+    self.animated = !self.animated;
+    
+    anim.completionBlock = ^(POPAnimation *anim, BOOL finished) {
+        if (finished) {
+            
+            [self performAnimation];  //当动画结束后又递归调用，让它产生一种心跳的效果
+        }
+    };
+    
+    [self.myCriLayer pop_addAnimation:anim forKey:@"Animation"];
 }
-*/
 
 @end
