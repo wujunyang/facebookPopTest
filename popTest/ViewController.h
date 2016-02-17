@@ -13,6 +13,7 @@
 #import "POPSpringAnimationViewController.h"
 #import "POPDecayAnimationViewController.h"
 #import "OtherViewController.h"
+#import "DecayViewController.h"
 
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
@@ -20,6 +21,8 @@
 
 - (IBAction)OtherAction:(id)sender;
 - (IBAction)decayAction:(id)sender;
+- (IBAction)decayDemoAction:(id)sender;
+
 
 @end
 

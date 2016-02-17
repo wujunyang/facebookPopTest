@@ -45,10 +45,19 @@
                                     <action selector="decayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQ8-nc-vEA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIx-Ae-EUm">
+                                <rect key="frame" x="27" y="350" width="118" height="30"/>
+                                <state key="normal" title="Decay结合小实例"/>
+                                <connections>
+                                    <action selector="decayDemoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCq-s4-K7s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="zTV-kD-9qv" secondAttribute="trailing" constant="129" id="8gA-PK-jMN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rIx-Ae-EUm" secondAttribute="trailing" constant="155" id="Gtz-bQ-hff"/>
+                            <constraint firstItem="rIx-Ae-EUm" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="8" id="HYf-Qk-ACQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="NSG-kE-Hyf"/>
                             <constraint firstItem="gJ4-hr-LVr" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="18" id="Sof-Yl-7x1"/>
@@ -56,10 +65,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="gJ4-hr-LVr" secondAttribute="trailing" constant="132" id="bf8-Jo-JOe"/>
                             <constraint firstItem="6TF-4Q-65j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="eDM-hl-Ddg"/>
                             <constraint firstItem="6TF-4Q-65j" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="13" id="fgj-cC-7ga"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rIx-Ae-EUm" secondAttribute="bottom" constant="188" id="g2d-Gb-KYj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="226" id="iWM-if-v6s"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="146" id="nIb-9s-x1u"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p18-LX-d7p"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KfB-r7-QmZ" secondAttribute="trailing" constant="198" id="rKM-zW-mrR"/>
+                            <constraint firstItem="rIx-Ae-EUm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="rkE-Kr-OKh"/>
                             <constraint firstItem="gJ4-hr-LVr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="slL-t8-F5K"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uLd-bB-arm"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="98" id="vsy-8T-aB5"/>
