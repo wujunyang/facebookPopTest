@@ -15,6 +15,8 @@
 #import "OtherViewController.h"
 #import "DecayViewController.h"
 
+#import "DemoViewController.h"
+
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
 - (IBAction)spingAction:(id)sender;
@@ -23,6 +25,8 @@
 - (IBAction)decayAction:(id)sender;
 - (IBAction)decayDemoAction:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *demoActions;
+- (IBAction)demosAction:(id)sender;
 
 @end
 

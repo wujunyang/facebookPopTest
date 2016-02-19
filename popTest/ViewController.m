@@ -53,4 +53,8 @@
 }
 
 
+- (IBAction)demosAction:(id)sender {
+    DemoViewController *basicPage=[[DemoViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
 @end

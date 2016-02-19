@@ -52,10 +52,21 @@
                                     <action selector="decayDemoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCq-s4-K7s"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqH-QP-85k">
+                                <rect key="frame" x="27" y="274" width="75" height="30"/>
+                                <state key="normal" title="伸收小实例"/>
+                                <connections>
+                                    <action selector="demosAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="375-lw-r65"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XqH-QP-85k" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="60" id="4G3-mY-Zsp"/>
+                            <constraint firstItem="XqH-QP-85k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="5aW-cD-xu1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zTV-kD-9qv" secondAttribute="trailing" constant="129" id="8gA-PK-jMN"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="XqH-QP-85k" secondAttribute="bottom" constant="8" id="Emu-6y-40g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XqH-QP-85k" secondAttribute="trailing" constant="198" id="GfD-MP-TUg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rIx-Ae-EUm" secondAttribute="trailing" constant="155" id="Gtz-bQ-hff"/>
                             <constraint firstItem="rIx-Ae-EUm" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="8" id="HYf-Qk-ACQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
@@ -78,6 +89,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M4D-3E-uSM"/>
+                    <connections>
+                        <outlet property="demoActions" destination="XqH-QP-85k" id="XIv-6f-mrF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

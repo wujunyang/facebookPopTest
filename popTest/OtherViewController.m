@@ -12,6 +12,8 @@
 @property(assign,nonatomic)BOOL isMenuOpen;
 @property(strong,nonatomic)UIView *myMenuView;
 @property(nonatomic)CGPoint VisiblePosition,HiddenPosition;
+
+@property(nonatomic,strong)UILabel *myDateLabel;
 @end
 
 @implementation OtherViewController
@@ -27,6 +29,9 @@
     UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"显示" style:UIBarButtonItemStylePlain
                                                                      target:self action:@selector(refreshPropertyList)];
     self.navigationItem.rightBarButtonItem = anotherButton;
+    
+    //实例2
+    [self dateLabelShow];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -96,5 +101,34 @@
     scaleAnimation.springBounciness = 20.0f;
     scaleAnimation.springSpeed = 20.0f;
     [self.myMenuView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
+}
+
+-(void)dateLabelShow
+{
+    //实例2:初始化一个UILabel
+    if (self.myDateLabel==nil) {
+        self.myDateLabel=[[UILabel alloc]initWithFrame:CGRectMake(20, 100, 200, 30)];
+        self.myDateLabel.textAlignment=NSTextAlignmentCenter;
+        self.myDateLabel.textColor=[UIColor redColor];
+        [self.view addSubview:self.myDateLabel];
+    }
+    
+    POPAnimatableProperty *prop = [POPAnimatableProperty propertyWithName:@"countdown" initializer:^(POPMutableAnimatableProperty *prop) {
+        
+        prop.writeBlock = ^(id obj, const CGFloat values[]) {
+            UILabel *lable = (UILabel*)obj;
+            lable.text = [NSString stringWithFormat:@"%02d:%02d:%02d",(int)values[0]/60,(int)values[0]%60,(int)(values[0]*100)%100];
+        };
+        
+        prop.threshold = 0.01f;
+    }];
+    
+    POPBasicAnimation *anBasic = [POPBasicAnimation linearAnimation];   //秒表当然必须是线性的时间函数
+    anBasic.property = prop;    //自定义属性
+    anBasic.fromValue = @(0);   //从0开始
+    anBasic.toValue = @(3*60);  //180秒
+    anBasic.duration = 3*60;    //持续3分钟
+    anBasic.beginTime = CACurrentMediaTime() + 1.0f;    //延迟1秒开始
+    [self.myDateLabel pop_addAnimation:anBasic forKey:@"countdown"];
 }
 @end
