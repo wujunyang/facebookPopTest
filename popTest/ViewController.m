@@ -57,4 +57,10 @@
     DemoViewController *basicPage=[[DemoViewController alloc]init];
     [self.navigationController pushViewController:basicPage animated:YES];
 }
+
+- (IBAction)coreAction:(id)sender {
+    
+    CoreAnimationViewController *basicPage=[[CoreAnimationViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
 @end

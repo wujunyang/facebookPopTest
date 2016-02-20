@@ -59,20 +59,31 @@
                                     <action selector="demosAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="375-lw-r65"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhX-Zr-ELn">
+                                <rect key="frame" x="27" y="388" width="161" height="30"/>
+                                <state key="normal" title="CoreAnimation普通动画"/>
+                                <connections>
+                                    <action selector="coreAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w25-l6-517"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LhX-Zr-ELn" secondAttribute="bottom" constant="150" id="3gQ-nJ-pvs"/>
                             <constraint firstItem="XqH-QP-85k" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="60" id="4G3-mY-Zsp"/>
                             <constraint firstItem="XqH-QP-85k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="5aW-cD-xu1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zTV-kD-9qv" secondAttribute="trailing" constant="129" id="8gA-PK-jMN"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="XqH-QP-85k" secondAttribute="bottom" constant="8" id="Emu-6y-40g"/>
+                            <constraint firstItem="LhX-Zr-ELn" firstAttribute="top" secondItem="rIx-Ae-EUm" secondAttribute="bottom" constant="8" id="FB5-cu-TVy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XqH-QP-85k" secondAttribute="trailing" constant="198" id="GfD-MP-TUg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rIx-Ae-EUm" secondAttribute="trailing" constant="155" id="Gtz-bQ-hff"/>
                             <constraint firstItem="rIx-Ae-EUm" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="8" id="HYf-Qk-ACQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LhX-Zr-ELn" secondAttribute="trailing" constant="112" id="JTs-A9-yKr"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="NSG-kE-Hyf"/>
                             <constraint firstItem="gJ4-hr-LVr" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="18" id="Sof-Yl-7x1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6TF-4Q-65j" secondAttribute="trailing" constant="129" id="UjQ-9D-8db"/>
+                            <constraint firstItem="LhX-Zr-ELn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="asg-ep-dgM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gJ4-hr-LVr" secondAttribute="trailing" constant="132" id="bf8-Jo-JOe"/>
                             <constraint firstItem="6TF-4Q-65j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="eDM-hl-Ddg"/>
                             <constraint firstItem="6TF-4Q-65j" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="13" id="fgj-cC-7ga"/>

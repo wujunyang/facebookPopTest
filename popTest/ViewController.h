@@ -17,6 +17,8 @@
 
 #import "DemoViewController.h"
 
+#import "CoreAnimationViewController.h"
+
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
 - (IBAction)spingAction:(id)sender;
@@ -27,6 +29,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *demoActions;
 - (IBAction)demosAction:(id)sender;
+- (IBAction)coreAction:(id)sender;
 
 @end
 
