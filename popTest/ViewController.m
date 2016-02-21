@@ -63,4 +63,9 @@
     CoreAnimationViewController *basicPage=[[CoreAnimationViewController alloc]init];
     [self.navigationController pushViewController:basicPage animated:YES];
 }
+
+- (IBAction)BezirPathAction:(id)sender {
+    BezierPathViewController *basicPage=[[BezierPathViewController alloc]init];
+    [self.navigationController pushViewController:basicPage animated:YES];
+}
 @end

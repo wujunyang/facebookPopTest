@@ -18,6 +18,7 @@
 #import "DemoViewController.h"
 
 #import "CoreAnimationViewController.h"
+#import "BezierPathViewController.h"
 
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
@@ -30,6 +31,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *demoActions;
 - (IBAction)demosAction:(id)sender;
 - (IBAction)coreAction:(id)sender;
+- (IBAction)BezirPathAction:(id)sender;
 
 @end
 

@@ -66,6 +66,13 @@
                                     <action selector="coreAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w25-l6-517"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93R-uO-JJk">
+                                <rect key="frame" x="27" y="433" width="105" height="30"/>
+                                <state key="normal" title="BezierPath实例"/>
+                                <connections>
+                                    <action selector="BezirPathAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ot5-Ij-mHl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -90,13 +97,17 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rIx-Ae-EUm" secondAttribute="bottom" constant="188" id="g2d-Gb-KYj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="226" id="iWM-if-v6s"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="146" id="nIb-9s-x1u"/>
+                            <constraint firstItem="93R-uO-JJk" firstAttribute="top" secondItem="LhX-Zr-ELn" secondAttribute="bottom" constant="15" id="ofN-Vi-UJ2"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p18-LX-d7p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="93R-uO-JJk" secondAttribute="trailing" constant="168" id="qns-k9-OBh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KfB-r7-QmZ" secondAttribute="trailing" constant="198" id="rKM-zW-mrR"/>
                             <constraint firstItem="rIx-Ae-EUm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="rkE-Kr-OKh"/>
                             <constraint firstItem="gJ4-hr-LVr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="slL-t8-F5K"/>
                             <constraint firstItem="zTV-kD-9qv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uLd-bB-arm"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="98" id="vsy-8T-aB5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="445" id="xuG-nV-fFp"/>
+                            <constraint firstItem="93R-uO-JJk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="yzK-1L-Qn7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="93R-uO-JJk" secondAttribute="bottom" constant="105" id="zIE-ur-ER6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M4D-3E-uSM"/>

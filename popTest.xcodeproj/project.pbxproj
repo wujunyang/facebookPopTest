@@ -21,6 +21,7 @@
 		34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A91C7205B1006C692C /* OtherViewController.m */; settings = {ASSET_TAGS = (); }; };
 		34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EADA801C737DF4002C9859 /* DecayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34EE1A831C7960A8009193DA /* BezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EE1A821C7960A8009193DA /* BezierPathViewController.m */; settings = {ASSET_TAGS = (); }; };
 		34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF0B1E1C773D1D007ED8FA /* CoreAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FE0087CC79765E61CACF546F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 203936C51C5B1348ADD07F87 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,8 @@
 		34E635A91C7205B1006C692C /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		34EADA7F1C737DF4002C9859 /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
 		34EADA801C737DF4002C9859 /* DecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		34EE1A811C7960A8009193DA /* BezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathViewController.h; sourceTree = "<group>"; };
+		34EE1A821C7960A8009193DA /* BezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathViewController.m; sourceTree = "<group>"; };
 		34EF0B1D1C773D1D007ED8FA /* CoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
 		34EF0B1E1C773D1D007ED8FA /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		7A2D7081B2C05A80BC627B85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				348054A31C75F17C0000508E /* DemoViewController.m */,
 				34EF0B1D1C773D1D007ED8FA /* CoreAnimationViewController.h */,
 				34EF0B1E1C773D1D007ED8FA /* CoreAnimationViewController.m */,
+				34EE1A811C7960A8009193DA /* BezierPathViewController.h */,
+				34EE1A821C7960A8009193DA /* BezierPathViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
+				34EE1A831C7960A8009193DA /* BezierPathViewController.m in Sources */,
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
 				348054A41C75F17C0000508E /* DemoViewController.m in Sources */,
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
