@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="QD9-c4-sBz">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="QD9-c4-sBz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-kD-9qv">
@@ -73,9 +77,21 @@
                                     <action selector="BezirPathAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ot5-Ij-mHl"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DjW-rx-IoG">
+                                <rect key="frame" x="3" y="484" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45l-8v-XWn">
+                                <rect key="frame" x="236" y="227" width="62" height="30"/>
+                                <state key="normal" title="动画实例"/>
+                                <connections>
+                                    <action selector="DemoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3W9-1Z-hEh"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="45l-8v-XWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="79.5" id="2aX-y1-Bqw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LhX-Zr-ELn" secondAttribute="bottom" constant="150" id="3gQ-nJ-pvs"/>
                             <constraint firstItem="XqH-QP-85k" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="60" id="4G3-mY-Zsp"/>
                             <constraint firstItem="XqH-QP-85k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="5aW-cD-xu1"/>
@@ -87,6 +103,7 @@
                             <constraint firstItem="rIx-Ae-EUm" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="8" id="HYf-Qk-ACQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LhX-Zr-ELn" secondAttribute="trailing" constant="112" id="JTs-A9-yKr"/>
+                            <constraint firstItem="45l-8v-XWn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-91.5" id="JXy-BJ-Tlf"/>
                             <constraint firstItem="KfB-r7-QmZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="NSG-kE-Hyf"/>
                             <constraint firstItem="gJ4-hr-LVr" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="18" id="Sof-Yl-7x1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6TF-4Q-65j" secondAttribute="trailing" constant="129" id="UjQ-9D-8db"/>
@@ -117,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="633" y="296"/>
+            <point key="canvasLocation" x="632.5" y="295.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SsL-2V-BcS">
@@ -138,4 +155,9 @@
             <point key="canvasLocation" x="152.53333333333333" y="921.10666666666668"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>

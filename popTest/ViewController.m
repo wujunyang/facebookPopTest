@@ -68,4 +68,9 @@
     BezierPathViewController *basicPage=[[BezierPathViewController alloc]init];
     [self.navigationController pushViewController:basicPage animated:YES];
 }
+
+- (IBAction)DemoTable:(id)sender {
+    POPTableViewController *vc=[[POPTableViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

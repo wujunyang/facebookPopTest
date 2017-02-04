@@ -20,6 +20,8 @@
 #import "CoreAnimationViewController.h"
 #import "BezierPathViewController.h"
 
+#import "POPTableViewController.h"
+
 @interface ViewController : UIViewController
 - (IBAction)PopBasicAction:(id)sender;
 - (IBAction)spingAction:(id)sender;
@@ -32,6 +34,7 @@
 - (IBAction)demosAction:(id)sender;
 - (IBAction)coreAction:(id)sender;
 - (IBAction)BezirPathAction:(id)sender;
+- (IBAction)DemoTable:(id)sender;
 
 @end
 
