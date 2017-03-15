@@ -4,4 +4,4 @@
 
 ###运行效果图
 
-<img src="https://github.com/wujunyang/facebookPopTest/blob/master/1.gif” width=400px height=600px></img>
+<img src="https://github.com/wujunyang/facebookPopTest/blob/master/1.gif" width=400px height=600px></img>
