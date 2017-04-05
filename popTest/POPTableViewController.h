@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "PopBackTopViewController.h"
+#import <pop/POP.h>
+
+#import "POPBasicAnimationViewController.h"
+#import "POPSpringAnimationViewController.h"
+#import "POPDecayAnimationViewController.h"
+#import "OtherViewController.h"
+#import "DecayViewController.h"
+
+#import "DemoViewController.h"
+
+#import "CoreAnimationViewController.h"
+#import "BezierPathViewController.h"
 
 @interface POPTableViewController : UIViewController
 

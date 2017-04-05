@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     if (!self.items) {
-        self.items=@[@"缩放动画"];
+        self.items=@[@"CoreAnmation普通动画运用",@"BezierPath实例",@"POPBasicAnimation运用",@"POPSpringAnimation运用",@"POPDecayAnimation运用",@"POPDecayAnimation结合小实例",@"伸收小实例",@"倒计时小实例",@"缩放动画"];
     }
     
     //初始化表格
@@ -68,6 +68,54 @@
     
     switch (indexPath.row) {
         case 0:
+        {
+            CoreAnimationViewController *vc=[[CoreAnimationViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 1:
+        {
+            BezierPathViewController *vc=[[BezierPathViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 2:
+        {
+            POPBasicAnimationViewController *vc=[[POPBasicAnimationViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 3:
+        {
+            POPSpringAnimationViewController *vc=[[POPSpringAnimationViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 4:
+        {
+            POPDecayAnimationViewController *vc=[[POPDecayAnimationViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 5:
+        {
+            DecayViewController *vc=[[DecayViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 6:
+        {
+            DemoViewController *vc=[[DemoViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 7:
+        {
+            OtherViewController *vc=[[OtherViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 8:
         {
             PopBackTopViewController *vc=[[PopBackTopViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
