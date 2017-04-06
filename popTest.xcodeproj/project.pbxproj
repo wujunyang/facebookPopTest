@@ -10,6 +10,10 @@
 		3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402BF061E45C1710023D97F /* POPTableViewController.m */; };
 		3402BF0D1E45C90C0023D97F /* PopBackTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402BF0C1E45C90C0023D97F /* PopBackTopViewController.m */; };
 		340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340494921C72EA7400D6120F /* POPDecayAnimationViewController.m */; };
+		3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1941E94D3CD00F3A678 /* RYCuteView.m */; };
+		3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */; };
+		3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */; };
+		3416E19E1E94EF9000F3A678 /* MPTelescopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */; };
 		348054A41C75F17C0000508E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348054A31C75F17C0000508E /* DemoViewController.m */; };
 		348CC9D21C6F7A9F005DC8FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D11C6F7A9F005DC8FE /* main.m */; };
 		348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D41C6F7A9F005DC8FE /* AppDelegate.m */; };
@@ -47,12 +51,20 @@
 
 /* Begin PBXFileReference section */
 		176896D3C1ADCBD6711C0A55 /* Pods-popTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-popTest/Pods-popTest.release.xcconfig"; sourceTree = "<group>"; };
-		3402BF051E45C1710023D97F /* POPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POPTableViewController.h; path = ../POPTableViewController.h; sourceTree = "<group>"; };
-		3402BF061E45C1710023D97F /* POPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POPTableViewController.m; path = ../POPTableViewController.m; sourceTree = "<group>"; };
+		3402BF051E45C1710023D97F /* POPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTableViewController.h; sourceTree = "<group>"; };
+		3402BF061E45C1710023D97F /* POPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTableViewController.m; sourceTree = "<group>"; };
 		3402BF0B1E45C90C0023D97F /* PopBackTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBackTopViewController.h; sourceTree = "<group>"; };
 		3402BF0C1E45C90C0023D97F /* PopBackTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBackTopViewController.m; sourceTree = "<group>"; };
 		340494911C72EA7400D6120F /* POPDecayAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationViewController.h; sourceTree = "<group>"; };
 		340494921C72EA7400D6120F /* POPDecayAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPDecayAnimationViewController.m; sourceTree = "<group>"; };
+		3416E1931E94D3CD00F3A678 /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
+		3416E1941E94D3CD00F3A678 /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
+		3416E1961E94D42500F3A678 /* MPUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUIBezierPathViewController.h; sourceTree = "<group>"; };
+		3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUIBezierPathViewController.m; sourceTree = "<group>"; };
+		3416E1991E94ECA000F3A678 /* HYYBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYBubbleButton.h; sourceTree = "<group>"; };
+		3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYBubbleButton.m; sourceTree = "<group>"; };
+		3416E19C1E94EF9000F3A678 /* MPTelescopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTelescopicViewController.h; sourceTree = "<group>"; };
+		3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTelescopicViewController.m; sourceTree = "<group>"; };
 		348054A21C75F17C0000508E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		348054A31C75F17C0000508E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		348CC9CD1C6F7A9F005DC8FE /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +128,6 @@
 		3402BF081E45C79D0023D97F /* popDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3402BF051E45C1710023D97F /* POPTableViewController.h */,
-				3402BF061E45C1710023D97F /* POPTableViewController.m */,
 				3402BF0A1E45C8CA0023D97F /* View */,
 				3402BF091E45C8BA0023D97F /* VC */,
 			);
@@ -136,6 +146,10 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3416E1991E94ECA000F3A678 /* HYYBubbleButton.h */,
+				3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */,
+				3416E1931E94D3CD00F3A678 /* RYCuteView.h */,
+				3416E1941E94D3CD00F3A678 /* RYCuteView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +179,8 @@
 		348CC9CF1C6F7A9F005DC8FE /* popTest */ = {
 			isa = PBXGroup;
 			children = (
+				3402BF051E45C1710023D97F /* POPTableViewController.h */,
+				3402BF061E45C1710023D97F /* POPTableViewController.m */,
 				3402BF081E45C79D0023D97F /* popDemo */,
 				348CC9D31C6F7A9F005DC8FE /* AppDelegate.h */,
 				348CC9D41C6F7A9F005DC8FE /* AppDelegate.m */,
@@ -191,6 +207,10 @@
 				34EF0B1E1C773D1D007ED8FA /* CoreAnimationViewController.m */,
 				34EE1A811C7960A8009193DA /* BezierPathViewController.h */,
 				34EE1A821C7960A8009193DA /* BezierPathViewController.m */,
+				3416E1961E94D42500F3A678 /* MPUIBezierPathViewController.h */,
+				3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */,
+				3416E19C1E94EF9000F3A678 /* MPTelescopicViewController.h */,
+				3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -421,16 +441,20 @@
 			files = (
 				34DDC5DD1C71B8E0004C6798 /* POPBasicAnimationViewController.m in Sources */,
 				3402BF0D1E45C90C0023D97F /* PopBackTopViewController.m in Sources */,
+				3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
 				34EE1A831C7960A8009193DA /* BezierPathViewController.m in Sources */,
+				3416E19E1E94EF9000F3A678 /* MPTelescopicViewController.m in Sources */,
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
 				348054A41C75F17C0000508E /* DemoViewController.m in Sources */,
+				3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */,
 				3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */,
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
+				3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */,
 				348CC9D21C6F7A9F005DC8FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

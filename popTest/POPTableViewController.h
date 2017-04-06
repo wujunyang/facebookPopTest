@@ -20,6 +20,8 @@
 
 #import "CoreAnimationViewController.h"
 #import "BezierPathViewController.h"
+#import "MPUIBezierPathViewController.h"
+#import "MPTelescopicViewController.h"
 
 @interface POPTableViewController : UIViewController
 

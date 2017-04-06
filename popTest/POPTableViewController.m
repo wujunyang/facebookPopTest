@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     if (!self.items) {
-        self.items=@[@"CoreAnmation普通动画运用",@"BezierPath实例",@"POPBasicAnimation运用",@"POPSpringAnimation运用",@"POPDecayAnimation运用",@"POPDecayAnimation结合小实例",@"伸收小实例",@"倒计时小实例",@"缩放动画"];
+        self.items=@[@"CoreAnmation普通动画运用",@"BezierPath实例",@"POPBasicAnimation运用",@"POPSpringAnimation运用",@"POPDecayAnimation运用",@"POPDecayAnimation结合小实例",@"伸收小实例",@"倒计时小实例",@"缩放动画",@"用UIBezierPath实现果冻效果",@"仿钉钉弹出效果"];
     }
     
     //初始化表格
@@ -118,6 +118,18 @@
         case 8:
         {
             PopBackTopViewController *vc=[[PopBackTopViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 9:
+        {
+            MPUIBezierPathViewController *vc=[[MPUIBezierPathViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 10:
+        {
+            MPTelescopicViewController *vc=[[MPTelescopicViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
