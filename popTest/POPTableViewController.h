@@ -22,6 +22,8 @@
 #import "BezierPathViewController.h"
 #import "MPUIBezierPathViewController.h"
 #import "MPTelescopicViewController.h"
+#import "MPDownloadViewController.h"
+#import "MPScaleViewController.h"
 
 @interface POPTableViewController : UIViewController
 

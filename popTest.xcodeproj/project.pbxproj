@@ -14,6 +14,11 @@
 		3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */; };
 		3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */; };
 		3416E19E1E94EF9000F3A678 /* MPTelescopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */; };
+		3430C8331E95E98700E0D3C6 /* UIView+YQBorderPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C82E1E95E98700E0D3C6 /* UIView+YQBorderPath.m */; };
+		3430C8341E95E98700E0D3C6 /* YQDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C8301E95E98700E0D3C6 /* YQDownloadButton.m */; };
+		3430C8351E95E98700E0D3C6 /* YQStartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C8321E95E98700E0D3C6 /* YQStartButton.m */; };
+		3430C8381E95E9E000E0D3C6 /* MPDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C8371E95E9E000E0D3C6 /* MPDownloadViewController.m */; };
+		3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C83A1E95EF3300E0D3C6 /* MPScaleViewController.m */; };
 		348054A41C75F17C0000508E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348054A31C75F17C0000508E /* DemoViewController.m */; };
 		348CC9D21C6F7A9F005DC8FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D11C6F7A9F005DC8FE /* main.m */; };
 		348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D41C6F7A9F005DC8FE /* AppDelegate.m */; };
@@ -65,6 +70,16 @@
 		3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYBubbleButton.m; sourceTree = "<group>"; };
 		3416E19C1E94EF9000F3A678 /* MPTelescopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTelescopicViewController.h; sourceTree = "<group>"; };
 		3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTelescopicViewController.m; sourceTree = "<group>"; };
+		3430C82D1E95E98700E0D3C6 /* UIView+YQBorderPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YQBorderPath.h"; sourceTree = "<group>"; };
+		3430C82E1E95E98700E0D3C6 /* UIView+YQBorderPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YQBorderPath.m"; sourceTree = "<group>"; };
+		3430C82F1E95E98700E0D3C6 /* YQDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQDownloadButton.h; sourceTree = "<group>"; };
+		3430C8301E95E98700E0D3C6 /* YQDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQDownloadButton.m; sourceTree = "<group>"; };
+		3430C8311E95E98700E0D3C6 /* YQStartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStartButton.h; sourceTree = "<group>"; };
+		3430C8321E95E98700E0D3C6 /* YQStartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStartButton.m; sourceTree = "<group>"; };
+		3430C8361E95E9E000E0D3C6 /* MPDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPDownloadViewController.h; path = popDemo/MPDownloadViewController.h; sourceTree = "<group>"; };
+		3430C8371E95E9E000E0D3C6 /* MPDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPDownloadViewController.m; path = popDemo/MPDownloadViewController.m; sourceTree = "<group>"; };
+		3430C8391E95EF3300E0D3C6 /* MPScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScaleViewController.h; sourceTree = "<group>"; };
+		3430C83A1E95EF3300E0D3C6 /* MPScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPScaleViewController.m; sourceTree = "<group>"; };
 		348054A21C75F17C0000508E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		348054A31C75F17C0000508E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		348CC9CD1C6F7A9F005DC8FE /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,12 +161,26 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3430C82C1E95E96A00E0D3C6 /* YQDownloadButton */,
 				3416E1991E94ECA000F3A678 /* HYYBubbleButton.h */,
 				3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */,
 				3416E1931E94D3CD00F3A678 /* RYCuteView.h */,
 				3416E1941E94D3CD00F3A678 /* RYCuteView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3430C82C1E95E96A00E0D3C6 /* YQDownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				3430C82D1E95E98700E0D3C6 /* UIView+YQBorderPath.h */,
+				3430C82E1E95E98700E0D3C6 /* UIView+YQBorderPath.m */,
+				3430C82F1E95E98700E0D3C6 /* YQDownloadButton.h */,
+				3430C8301E95E98700E0D3C6 /* YQDownloadButton.m */,
+				3430C8311E95E98700E0D3C6 /* YQStartButton.h */,
+				3430C8321E95E98700E0D3C6 /* YQStartButton.m */,
+			);
+			path = YQDownloadButton;
 			sourceTree = "<group>";
 		};
 		348CC9C41C6F7A9F005DC8FE = {
@@ -211,6 +240,10 @@
 				3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */,
 				3416E19C1E94EF9000F3A678 /* MPTelescopicViewController.h */,
 				3416E19D1E94EF9000F3A678 /* MPTelescopicViewController.m */,
+				3430C8361E95E9E000E0D3C6 /* MPDownloadViewController.h */,
+				3430C8371E95E9E000E0D3C6 /* MPDownloadViewController.m */,
+				3430C8391E95EF3300E0D3C6 /* MPScaleViewController.h */,
+				3430C83A1E95EF3300E0D3C6 /* MPScaleViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -443,18 +476,23 @@
 				3402BF0D1E45C90C0023D97F /* PopBackTopViewController.m in Sources */,
 				3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
+				3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */,
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
+				3430C8341E95E98700E0D3C6 /* YQDownloadButton.m in Sources */,
+				3430C8381E95E9E000E0D3C6 /* MPDownloadViewController.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
 				34EE1A831C7960A8009193DA /* BezierPathViewController.m in Sources */,
 				3416E19E1E94EF9000F3A678 /* MPTelescopicViewController.m in Sources */,
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
+				3430C8331E95E98700E0D3C6 /* UIView+YQBorderPath.m in Sources */,
 				348054A41C75F17C0000508E /* DemoViewController.m in Sources */,
 				3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */,
 				3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */,
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
 				3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */,
+				3430C8351E95E98700E0D3C6 /* YQStartButton.m in Sources */,
 				348CC9D21C6F7A9F005DC8FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     if (!self.items) {
-        self.items=@[@"CoreAnmation普通动画运用",@"BezierPath实例",@"POPBasicAnimation运用",@"POPSpringAnimation运用",@"POPDecayAnimation运用",@"POPDecayAnimation结合小实例",@"伸收小实例",@"倒计时小实例",@"缩放动画",@"用UIBezierPath实现果冻效果",@"仿钉钉弹出效果"];
+        self.items=@[@"CoreAnmation普通动画运用",@"BezierPath实例",@"POPBasicAnimation运用",@"POPSpringAnimation运用",@"POPDecayAnimation运用",@"POPDecayAnimation结合小实例",@"伸收小实例",@"倒计时小实例",@"缩放动画",@"用UIBezierPath实现果冻效果",@"仿钉钉弹出效果",@"注水的动作效果",@"刻度盘效果"];
     }
     
     //初始化表格
@@ -130,6 +130,18 @@
         case 10:
         {
             MPTelescopicViewController *vc=[[MPTelescopicViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 11:
+        {
+            MPDownloadViewController *vc=[[MPDownloadViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 12:
+        {
+            MPScaleViewController *vc=[[MPScaleViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
