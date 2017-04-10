@@ -24,6 +24,8 @@
 #import "MPTelescopicViewController.h"
 #import "MPDownloadViewController.h"
 #import "MPScaleViewController.h"
+#import "MPProgressViewController.h"
+#import "MPPushViewController.h"
 
 @interface POPTableViewController : UIViewController
 
