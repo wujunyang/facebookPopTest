@@ -183,7 +183,7 @@
 }
 
 
-//values方式
+//values方式 关键针的动画
 -(void)animationValues
 {
     if (self.my_View==nil) {
