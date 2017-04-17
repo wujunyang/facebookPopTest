@@ -27,6 +27,7 @@
 #import "MPProgressViewController.h"
 #import "MPPushViewController.h"
 #import "MPImageViewViewController.h"
+#import "POPCALayerMaskViewController.h"
 
 @interface POPTableViewController : UIViewController
 

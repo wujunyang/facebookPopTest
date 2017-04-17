@@ -36,6 +36,8 @@
 		348CC9E01C6F7A9F005DC8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348CC9DE1C6F7A9F005DC8FE /* LaunchScreen.storyboard */; };
 		348CC9EB1C6F7A9F005DC8FE /* popTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9EA1C6F7A9F005DC8FE /* popTestTests.m */; };
 		348CC9F61C6F7A9F005DC8FE /* popTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9F51C6F7A9F005DC8FE /* popTestUITests.m */; };
+		34B846131EA4648E007F79FC /* POPCALayerMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */; };
+		34B846161EA46A93007F79FC /* TNActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B846151EA46A93007F79FC /* TNActivityIndicator.m */; };
 		34DDC5DD1C71B8E0004C6798 /* POPBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */; };
 		34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */; };
 		34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A91C7205B1006C692C /* OtherViewController.m */; };
@@ -124,6 +126,10 @@
 		348CC9F11C6F7A9F005DC8FE /* popTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		348CC9F51C6F7A9F005DC8FE /* popTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popTestUITests.m; sourceTree = "<group>"; };
 		348CC9F71C6F7A9F005DC8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B846111EA4648E007F79FC /* POPCALayerMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCALayerMaskViewController.h; sourceTree = "<group>"; };
+		34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPCALayerMaskViewController.m; sourceTree = "<group>"; };
+		34B846141EA46A93007F79FC /* TNActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNActivityIndicator.h; sourceTree = "<group>"; };
+		34B846151EA46A93007F79FC /* TNActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNActivityIndicator.m; sourceTree = "<group>"; };
 		34DDC5DB1C71B8E0004C6798 /* POPBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationViewController.h; sourceTree = "<group>"; };
 		34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPBasicAnimationViewController.m; sourceTree = "<group>"; };
 		34E635A51C71F566006C692C /* POPSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationViewController.h; sourceTree = "<group>"; };
@@ -189,6 +195,8 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34B846141EA46A93007F79FC /* TNActivityIndicator.h */,
+				34B846151EA46A93007F79FC /* TNActivityIndicator.m */,
 				3404DF461E9736D7002B9F94 /* XLBubbleTransition */,
 				3404DF3C1E972DB3002B9F94 /* XLPaymentHUD */,
 				3430C82C1E95E96A00E0D3C6 /* YQDownloadButton */,
@@ -307,6 +315,8 @@
 				3404DF551E97377F002B9F94 /* MPPopViewController.m */,
 				34F6B7531E9E20DA0065BD0A /* MPImageViewViewController.h */,
 				34F6B7541E9E20DA0065BD0A /* MPImageViewViewController.m */,
+				34B846111EA4648E007F79FC /* POPCALayerMaskViewController.h */,
+				34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -555,6 +565,7 @@
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
 				3430C8331E95E98700E0D3C6 /* UIView+YQBorderPath.m in Sources */,
 				348054A41C75F17C0000508E /* DemoViewController.m in Sources */,
+				34B846131EA4648E007F79FC /* POPCALayerMaskViewController.m in Sources */,
 				3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */,
 				3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */,
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
@@ -562,6 +573,7 @@
 				3404DF501E973705002B9F94 /* XLBubblePushTransition.m in Sources */,
 				3404DF451E972F0B002B9F94 /* MPProgressViewController.m in Sources */,
 				3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */,
+				34B846161EA46A93007F79FC /* TNActivityIndicator.m in Sources */,
 				34F6B7551E9E20DA0065BD0A /* MPImageViewViewController.m in Sources */,
 				3404DF4F1E973705002B9F94 /* XLBubblePopTransition.m in Sources */,
 				3430C8351E95E98700E0D3C6 /* YQStartButton.m in Sources */,
