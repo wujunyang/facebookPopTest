@@ -106,6 +106,7 @@
     ansizeBasic.toValue=[NSValue valueWithCGSize:CGSizeMake(100, 100)];
     ansizeBasic.duration=5;
     ansizeBasic.repeatCount=HUGE_VALF;
+    
     [self.mySizeView pop_addAnimation:ansizeBasic forKey:@"mySizeView"];
     
     

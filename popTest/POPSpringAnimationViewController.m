@@ -30,6 +30,7 @@
     //创建一个POPSpringAnimation动画 实现X轴运动 有反弹效果
     POPSpringAnimation *anSpring = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
     anSpring.toValue =@(300);
+    
     anSpring.beginTime = CACurrentMediaTime() + 1.0f;
     anSpring.springBounciness=14.0;    //[0-20] 弹力 越大则震动幅度越大
     anSpring.springSpeed=12.0;   //[0-20] 速度 越大则动画结束越快

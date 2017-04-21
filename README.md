@@ -267,3 +267,43 @@ basicAnimation.delegate=self;
   basicAnimation.delegate=self;
   [self.tableView pop_addAnimation:basicAnimation forKey:@"WhatEverNameYouWant"];
 ```
+
+### 关于Poping一些注意点
+
+1：组动画的效果实现，同时写就会同时进行，就有组的效果
+
+```objective-c
+    POPSpringAnimation *Annimation1 = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+    Annimation1.springSpeed = 40.0f;
+    Annimation1.springBounciness = 30.0f;
+    Annimation1.fromValue = [NSValue valueWithCGPoint:CGPointMake(0.3, 0.3)];
+    Annimation1.toValue = [NSValue valueWithCGPoint:CGPointMake(1, 1)];
+    POPSpringAnimation *Annimation2 = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];
+    Annimation2.springSpeed = 40.0f;
+    Annimation1.springBounciness = 30.0f;
+    Annimation2.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
+    [_Subview pop_addAnimation:Annimation1 forKey:@"Scale"];
+    [_Subview pop_addAnimation:Annimation2 forKey:@"Move"];
+```
+
+2：关于连续动画的效果
+
+```objective-c
+ anim.completionBlock = ^(POPAnimation *anim, BOOL finished) { 
+  if (finished) {
+     NSLog(@"Animation finished!");
+     //加入新的动画
+     }};
+```
+
+3：可以实现委托POPAnimatorDelegate关于动画前后的一些操作处理
+
+```objective-c
+- (void)pop_animationDidStart:(POPAnimation *)anim;
+```
+```objective-c
+- (void)pop_animationDidStop:(POPAnimation *)anim finished:(BOOL)finished;
+```
+```objective-c
+- (void)pop_animationDidReachToValue:(POPAnimation *)anim;
+```
