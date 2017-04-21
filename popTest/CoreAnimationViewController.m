@@ -8,7 +8,7 @@
 
 #import "CoreAnimationViewController.h"
 
-@interface CoreAnimationViewController ()
+@interface CoreAnimationViewController ()<CAAnimationDelegate>
 @property(strong,nonatomic)UIView *ui_View,*bound_View,*bgColor_View,*y_View,*my_View,*my_pathView,*my_GroupView;
 @property(strong,nonatomic)UIView *my_transition,*my_pushTranstion;
 

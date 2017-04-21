@@ -8,7 +8,7 @@
 
 #import "POPBasicAnimationViewController.h"
 
-@interface POPBasicAnimationViewController ()
+@interface POPBasicAnimationViewController ()  //<POPAnimatorDelegate,POPAnimationDelegate>
 @property(strong,nonatomic)UIView *myView,*myXView,*myBackColorView,*mytimingFunctionLinearView,*mytimingFunctionEaseInEaseOutView,*mySizeView;
 @property(strong,nonatomic)UILabel *myLabel;
 
