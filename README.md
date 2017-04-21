@@ -9,7 +9,7 @@
 
 ### 一：关于Poping一些使用知识点
 
-# 5 使用Poping只要简单五步就可以实现
+#### 5 使用Poping只要简单五步就可以实现
 
 ```objective-c
   // 1. Pick a Kind Of Animation //  POPBasicAnimation  POPSpringAnimation POPDecayAnimation
@@ -36,7 +36,7 @@
 
 
 
-## Step 1 Pick Kind of Animation
+#### Step 1 Pick Kind of Animation
 
 
 ### POPBasicAnimation
@@ -67,7 +67,7 @@ POPBasicAnimation *basicAnimation = [POPBasicAnimation animation];
 ```
 
 
-## Step 2 Decide if you will animate a view property or layer property
+#### Step 2 Decide if you will animate a view property or layer property
 
 ### View Properties
 ##### Alpha - kPOPViewAlpha
@@ -100,7 +100,7 @@ POPBasicAnimation *basicAnimation = [POPBasicAnimation animation];
 
 
 
-## Step 3 Find your property below then add and set .toValue
+#### Step 3 Find your property below then add and set .toValue
 
 ### View Properties
 ##### Alpha - kPOPViewAlpha
@@ -222,7 +222,7 @@ basicAnimation.property = [POPAnimatableProperty propertyWithName: kPOPLayerRota
 basicAnimation.toValue= @(M_PI/4); //2 M_PI is an entire rotation
 ```
 
-## Step 4 Create Name & Delegate For Animation
+#### Step 4 Create Name & Delegate For Animation
 ```objective-c
 basicAnimation.name=@"WhatEverAnimationNameYouWant";
 basicAnimation.delegate=self;
@@ -254,7 +254,7 @@ basicAnimation.delegate=self;
 ```
 
 
-## Step 5 Add animation to View
+#### Step 5 Add animation to View
 ```objective-c
  [self.tableView pop_addAnimation:basicAnimation forKey:@"WhatEverNameYouWant"];
 ```
@@ -307,3 +307,26 @@ basicAnimation.delegate=self;
 ```objective-c
 - (void)pop_animationDidReachToValue:(POPAnimation *)anim;
 ```
+
+4：POPBasicAnimation提供四种timingfunction(很熟悉，对不对? 就是Core Animation中那些)
+
+```objective-c
+
+kCAMediaTimingFunctionLinear
+
+kCAMediaTimingFunctionEaseIn
+
+kCAMediaTimingFunctionEaseOut
+
+kCAMediaTimingFunctionEaseInEaseOut
+
+```
+
+
+<img src="https://github.com/wujunyang/facebookPopTest/blob/master/2.png” width=300px height=400px></img>
+
+<img src="https://github.com/wujunyang/facebookPopTest/blob/master/3.png” width=300px height=400px></img>
+
+<img src="https://github.com/wujunyang/facebookPopTest/blob/master/4.png” width=300px height=400px></img>
+
+<img src="https://github.com/wujunyang/facebookPopTest/blob/master/5.png” width=300px height=400px></img>

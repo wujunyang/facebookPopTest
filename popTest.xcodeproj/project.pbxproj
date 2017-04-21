@@ -18,6 +18,7 @@
 		3404DF501E973705002B9F94 /* XLBubblePushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF4C1E973705002B9F94 /* XLBubblePushTransition.m */; };
 		3404DF531E97376E002B9F94 /* MPPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF521E97376E002B9F94 /* MPPushViewController.m */; };
 		3404DF561E97377F002B9F94 /* MPPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF551E97377F002B9F94 /* MPPopViewController.m */; };
+		340793A51EA9EBD000AF184A /* POPProgressBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */; };
 		3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1941E94D3CD00F3A678 /* RYCuteView.m */; };
 		3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */; };
 		3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */; };
@@ -90,6 +91,8 @@
 		3404DF521E97376E002B9F94 /* MPPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPushViewController.m; sourceTree = "<group>"; };
 		3404DF541E97377F002B9F94 /* MPPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPopViewController.h; sourceTree = "<group>"; };
 		3404DF551E97377F002B9F94 /* MPPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPopViewController.m; sourceTree = "<group>"; };
+		340793A31EA9EBD000AF184A /* POPProgressBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPProgressBarViewController.h; sourceTree = "<group>"; };
+		340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPProgressBarViewController.m; sourceTree = "<group>"; };
 		3416E1931E94D3CD00F3A678 /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
 		3416E1941E94D3CD00F3A678 /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
 		3416E1961E94D42500F3A678 /* MPUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUIBezierPathViewController.h; sourceTree = "<group>"; };
@@ -317,6 +320,8 @@
 				34F6B7541E9E20DA0065BD0A /* MPImageViewViewController.m */,
 				34B846111EA4648E007F79FC /* POPCALayerMaskViewController.h */,
 				34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */,
+				340793A31EA9EBD000AF184A /* POPProgressBarViewController.h */,
+				340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -554,6 +559,7 @@
 				3404DF531E97376E002B9F94 /* MPPushViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
 				3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */,
+				340793A51EA9EBD000AF184A /* POPProgressBarViewController.m in Sources */,
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
 				3430C8341E95E98700E0D3C6 /* YQDownloadButton.m in Sources */,
