@@ -2,14 +2,14 @@
 关于facebook开源动画库Pop的练习实例
 
 
-###运行效果图
+### 运行效果图
 
 <img src="https://github.com/wujunyang/facebookPopTest/blob/master/1.gif" width=400px height=600px></img>
 
 
-###关于Poping一些使用知识点
+### 一：关于Poping一些使用知识点
 
-#5 使用Poping只要简单五步就可以实现
+# 5 使用Poping只要简单五步就可以实现
 
 ```objective-c
   // 1. Pick a Kind Of Animation //  POPBasicAnimation  POPSpringAnimation POPDecayAnimation
@@ -268,7 +268,7 @@ basicAnimation.delegate=self;
   [self.tableView pop_addAnimation:basicAnimation forKey:@"WhatEverNameYouWant"];
 ```
 
-### 关于Poping一些注意点
+### 二：关于Poping一些注意点
 
 1：组动画的效果实现，同时写就会同时进行，就有组的效果
 
