@@ -19,6 +19,11 @@
 		3404DF531E97376E002B9F94 /* MPPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF521E97376E002B9F94 /* MPPushViewController.m */; };
 		3404DF561E97377F002B9F94 /* MPPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF551E97377F002B9F94 /* MPPopViewController.m */; };
 		340793A51EA9EBD000AF184A /* POPProgressBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */; };
+		340793A81EAA0C2C00AF184A /* POPProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793A71EAA0C2C00AF184A /* POPProgressViewController.m */; };
+		340793B21EAA0CC900AF184A /* BLEProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793AB1EAA0CC900AF184A /* BLEProgressBar.m */; };
+		340793B31EAA0CC900AF184A /* BLEProgressBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793AD1EAA0CC900AF184A /* BLEProgressBaseView.m */; };
+		340793B41EAA0CC900AF184A /* BLEProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793AF1EAA0CC900AF184A /* BLEProgressIndicator.m */; };
+		340793B51EAA0CC900AF184A /* BLEProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793B11EAA0CC900AF184A /* BLEProgressView.m */; };
 		3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1941E94D3CD00F3A678 /* RYCuteView.m */; };
 		3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */; };
 		3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */; };
@@ -93,6 +98,16 @@
 		3404DF551E97377F002B9F94 /* MPPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPopViewController.m; sourceTree = "<group>"; };
 		340793A31EA9EBD000AF184A /* POPProgressBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPProgressBarViewController.h; sourceTree = "<group>"; };
 		340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPProgressBarViewController.m; sourceTree = "<group>"; };
+		340793A61EAA0C2C00AF184A /* POPProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPProgressViewController.h; sourceTree = "<group>"; };
+		340793A71EAA0C2C00AF184A /* POPProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPProgressViewController.m; sourceTree = "<group>"; };
+		340793AA1EAA0CC900AF184A /* BLEProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEProgressBar.h; sourceTree = "<group>"; };
+		340793AB1EAA0CC900AF184A /* BLEProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressBar.m; sourceTree = "<group>"; };
+		340793AC1EAA0CC900AF184A /* BLEProgressBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEProgressBaseView.h; sourceTree = "<group>"; };
+		340793AD1EAA0CC900AF184A /* BLEProgressBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressBaseView.m; sourceTree = "<group>"; };
+		340793AE1EAA0CC900AF184A /* BLEProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEProgressIndicator.h; sourceTree = "<group>"; };
+		340793AF1EAA0CC900AF184A /* BLEProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressIndicator.m; sourceTree = "<group>"; };
+		340793B01EAA0CC900AF184A /* BLEProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEProgressView.h; sourceTree = "<group>"; };
+		340793B11EAA0CC900AF184A /* BLEProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressView.m; sourceTree = "<group>"; };
 		3416E1931E94D3CD00F3A678 /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
 		3416E1941E94D3CD00F3A678 /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
 		3416E1961E94D42500F3A678 /* MPUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUIBezierPathViewController.h; sourceTree = "<group>"; };
@@ -198,6 +213,7 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				340793A91EAA0C9800AF184A /* BLEProgressView */,
 				34B846141EA46A93007F79FC /* TNActivityIndicator.h */,
 				34B846151EA46A93007F79FC /* TNActivityIndicator.m */,
 				3404DF461E9736D7002B9F94 /* XLBubbleTransition */,
@@ -234,6 +250,21 @@
 				3404DF4D1E973705002B9F94 /* XLBubbleTransition.h */,
 			);
 			path = XLBubbleTransition;
+			sourceTree = "<group>";
+		};
+		340793A91EAA0C9800AF184A /* BLEProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				340793AA1EAA0CC900AF184A /* BLEProgressBar.h */,
+				340793AB1EAA0CC900AF184A /* BLEProgressBar.m */,
+				340793AC1EAA0CC900AF184A /* BLEProgressBaseView.h */,
+				340793AD1EAA0CC900AF184A /* BLEProgressBaseView.m */,
+				340793AE1EAA0CC900AF184A /* BLEProgressIndicator.h */,
+				340793AF1EAA0CC900AF184A /* BLEProgressIndicator.m */,
+				340793B01EAA0CC900AF184A /* BLEProgressView.h */,
+				340793B11EAA0CC900AF184A /* BLEProgressView.m */,
+			);
+			path = BLEProgressView;
 			sourceTree = "<group>";
 		};
 		3430C82C1E95E96A00E0D3C6 /* YQDownloadButton */ = {
@@ -322,6 +353,8 @@
 				34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */,
 				340793A31EA9EBD000AF184A /* POPProgressBarViewController.h */,
 				340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */,
+				340793A61EAA0C2C00AF184A /* POPProgressViewController.h */,
+				340793A71EAA0C2C00AF184A /* POPProgressViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -558,6 +591,7 @@
 				3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */,
 				3404DF531E97376E002B9F94 /* MPPushViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
+				340793A81EAA0C2C00AF184A /* POPProgressViewController.m in Sources */,
 				3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */,
 				340793A51EA9EBD000AF184A /* POPProgressBarViewController.m in Sources */,
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
@@ -571,6 +605,9 @@
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
 				3430C8331E95E98700E0D3C6 /* UIView+YQBorderPath.m in Sources */,
 				348054A41C75F17C0000508E /* DemoViewController.m in Sources */,
+				340793B41EAA0CC900AF184A /* BLEProgressIndicator.m in Sources */,
+				340793B51EAA0CC900AF184A /* BLEProgressView.m in Sources */,
+				340793B31EAA0CC900AF184A /* BLEProgressBaseView.m in Sources */,
 				34B846131EA4648E007F79FC /* POPCALayerMaskViewController.m in Sources */,
 				3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */,
 				3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */,
@@ -581,6 +618,7 @@
 				3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */,
 				34B846161EA46A93007F79FC /* TNActivityIndicator.m in Sources */,
 				34F6B7551E9E20DA0065BD0A /* MPImageViewViewController.m in Sources */,
+				340793B21EAA0CC900AF184A /* BLEProgressBar.m in Sources */,
 				3404DF4F1E973705002B9F94 /* XLBubblePopTransition.m in Sources */,
 				3430C8351E95E98700E0D3C6 /* YQStartButton.m in Sources */,
 				348CC9D21C6F7A9F005DC8FE /* main.m in Sources */,
