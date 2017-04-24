@@ -33,6 +33,9 @@
 		3430C8351E95E98700E0D3C6 /* YQStartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C8321E95E98700E0D3C6 /* YQStartButton.m */; };
 		3430C8381E95E9E000E0D3C6 /* MPDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C8371E95E9E000E0D3C6 /* MPDownloadViewController.m */; };
 		3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3430C83A1E95EF3300E0D3C6 /* MPScaleViewController.m */; };
+		3468D2F91EADF7AA0047C095 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3468D2F61EADF7AA0047C095 /* Sparkle.png */; };
+		3468D2FA1EADF7AA0047C095 /* WclEmitterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468D2F81EADF7AA0047C095 /* WclEmitterButton.m */; };
+		3468D2FD1EADF7E30047C095 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468D2FC1EADF7E30047C095 /* CAEmitterLayerViewController.m */; };
 		348054A41C75F17C0000508E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348054A31C75F17C0000508E /* DemoViewController.m */; };
 		348CC9D21C6F7A9F005DC8FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D11C6F7A9F005DC8FE /* main.m */; };
 		348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9D41C6F7A9F005DC8FE /* AppDelegate.m */; };
@@ -126,6 +129,11 @@
 		3430C8371E95E9E000E0D3C6 /* MPDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPDownloadViewController.m; path = popDemo/MPDownloadViewController.m; sourceTree = "<group>"; };
 		3430C8391E95EF3300E0D3C6 /* MPScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScaleViewController.h; sourceTree = "<group>"; };
 		3430C83A1E95EF3300E0D3C6 /* MPScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPScaleViewController.m; sourceTree = "<group>"; };
+		3468D2F61EADF7AA0047C095 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		3468D2F71EADF7AA0047C095 /* WclEmitterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WclEmitterButton.h; sourceTree = "<group>"; };
+		3468D2F81EADF7AA0047C095 /* WclEmitterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WclEmitterButton.m; sourceTree = "<group>"; };
+		3468D2FB1EADF7E30047C095 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		3468D2FC1EADF7E30047C095 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
 		348054A21C75F17C0000508E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		348054A31C75F17C0000508E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		348CC9CD1C6F7A9F005DC8FE /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +221,7 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3468D2F51EADF7940047C095 /* WclEmitterButton */,
 				340793A91EAA0C9800AF184A /* BLEProgressView */,
 				34B846141EA46A93007F79FC /* TNActivityIndicator.h */,
 				34B846151EA46A93007F79FC /* TNActivityIndicator.m */,
@@ -278,6 +287,16 @@
 				3430C8321E95E98700E0D3C6 /* YQStartButton.m */,
 			);
 			path = YQDownloadButton;
+			sourceTree = "<group>";
+		};
+		3468D2F51EADF7940047C095 /* WclEmitterButton */ = {
+			isa = PBXGroup;
+			children = (
+				3468D2F61EADF7AA0047C095 /* Sparkle.png */,
+				3468D2F71EADF7AA0047C095 /* WclEmitterButton.h */,
+				3468D2F81EADF7AA0047C095 /* WclEmitterButton.m */,
+			);
+			path = WclEmitterButton;
 			sourceTree = "<group>";
 		};
 		348CC9C41C6F7A9F005DC8FE = {
@@ -355,6 +374,8 @@
 				340793A41EA9EBD000AF184A /* POPProgressBarViewController.m */,
 				340793A61EAA0C2C00AF184A /* POPProgressViewController.h */,
 				340793A71EAA0C2C00AF184A /* POPProgressViewController.m */,
+				3468D2FB1EADF7E30047C095 /* CAEmitterLayerViewController.h */,
+				3468D2FC1EADF7E30047C095 /* CAEmitterLayerViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -508,6 +529,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3468D2F91EADF7AA0047C095 /* Sparkle.png in Resources */,
 				348CC9E01C6F7A9F005DC8FE /* LaunchScreen.storyboard in Resources */,
 				348CC9DD1C6F7A9F005DC8FE /* Assets.xcassets in Resources */,
 				348CC9DB1C6F7A9F005DC8FE /* Main.storyboard in Resources */,
@@ -600,6 +622,7 @@
 				3430C8381E95E9E000E0D3C6 /* MPDownloadViewController.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
+				3468D2FA1EADF7AA0047C095 /* WclEmitterButton.m in Sources */,
 				34EE1A831C7960A8009193DA /* BezierPathViewController.m in Sources */,
 				3416E19E1E94EF9000F3A678 /* MPTelescopicViewController.m in Sources */,
 				34EADA811C737DF4002C9859 /* DecayViewController.m in Sources */,
@@ -614,6 +637,7 @@
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
 				3404DF421E972EAC002B9F94 /* XLPaymentSuccessHUD.m in Sources */,
 				3404DF501E973705002B9F94 /* XLBubblePushTransition.m in Sources */,
+				3468D2FD1EADF7E30047C095 /* CAEmitterLayerViewController.m in Sources */,
 				3404DF451E972F0B002B9F94 /* MPProgressViewController.m in Sources */,
 				3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */,
 				34B846161EA46A93007F79FC /* TNActivityIndicator.m in Sources */,

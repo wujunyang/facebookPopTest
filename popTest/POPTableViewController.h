@@ -30,7 +30,7 @@
 #import "POPCALayerMaskViewController.h"
 #import "POPProgressBarViewController.h"
 #import "POPProgressViewController.h"
-
+#import "CAEmitterLayerViewController.h"
 
 @interface POPTableViewController : UIViewController
 
