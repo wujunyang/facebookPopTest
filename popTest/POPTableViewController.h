@@ -31,6 +31,7 @@
 #import "POPProgressBarViewController.h"
 #import "POPProgressViewController.h"
 #import "CAEmitterLayerViewController.h"
+#import "WaterWaveViewController.h"
 
 @interface POPTableViewController : UIViewController
 

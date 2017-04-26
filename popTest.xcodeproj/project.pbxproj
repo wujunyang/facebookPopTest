@@ -24,6 +24,8 @@
 		340793B31EAA0CC900AF184A /* BLEProgressBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793AD1EAA0CC900AF184A /* BLEProgressBaseView.m */; };
 		340793B41EAA0CC900AF184A /* BLEProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793AF1EAA0CC900AF184A /* BLEProgressIndicator.m */; };
 		340793B51EAA0CC900AF184A /* BLEProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340793B11EAA0CC900AF184A /* BLEProgressView.m */; };
+		3412E2FE1EB0750800D8DFA1 /* YDWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412E2FD1EB0750800D8DFA1 /* YDWaveLoadingView.m */; };
+		3412E3011EB0758000D8DFA1 /* WaterWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3412E3001EB0758000D8DFA1 /* WaterWaveViewController.m */; };
 		3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1941E94D3CD00F3A678 /* RYCuteView.m */; };
 		3416E1981E94D42500F3A678 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E1971E94D42500F3A678 /* MPUIBezierPathViewController.m */; };
 		3416E19B1E94ECA000F3A678 /* HYYBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E19A1E94ECA000F3A678 /* HYYBubbleButton.m */; };
@@ -111,6 +113,10 @@
 		340793AF1EAA0CC900AF184A /* BLEProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressIndicator.m; sourceTree = "<group>"; };
 		340793B01EAA0CC900AF184A /* BLEProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEProgressView.h; sourceTree = "<group>"; };
 		340793B11EAA0CC900AF184A /* BLEProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProgressView.m; sourceTree = "<group>"; };
+		3412E2FC1EB0750800D8DFA1 /* YDWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDWaveLoadingView.h; sourceTree = "<group>"; };
+		3412E2FD1EB0750800D8DFA1 /* YDWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDWaveLoadingView.m; sourceTree = "<group>"; };
+		3412E2FF1EB0758000D8DFA1 /* WaterWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveViewController.h; sourceTree = "<group>"; };
+		3412E3001EB0758000D8DFA1 /* WaterWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveViewController.m; sourceTree = "<group>"; };
 		3416E1931E94D3CD00F3A678 /* RYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCuteView.h; sourceTree = "<group>"; };
 		3416E1941E94D3CD00F3A678 /* RYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCuteView.m; sourceTree = "<group>"; };
 		3416E1961E94D42500F3A678 /* MPUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUIBezierPathViewController.h; sourceTree = "<group>"; };
@@ -221,6 +227,7 @@
 		3402BF0A1E45C8CA0023D97F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3412E2FB1EB074EA00D8DFA1 /* LoadingView */,
 				3468D2F51EADF7940047C095 /* WclEmitterButton */,
 				340793A91EAA0C9800AF184A /* BLEProgressView */,
 				34B846141EA46A93007F79FC /* TNActivityIndicator.h */,
@@ -274,6 +281,15 @@
 				340793B11EAA0CC900AF184A /* BLEProgressView.m */,
 			);
 			path = BLEProgressView;
+			sourceTree = "<group>";
+		};
+		3412E2FB1EB074EA00D8DFA1 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3412E2FC1EB0750800D8DFA1 /* YDWaveLoadingView.h */,
+				3412E2FD1EB0750800D8DFA1 /* YDWaveLoadingView.m */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		3430C82C1E95E96A00E0D3C6 /* YQDownloadButton */ = {
@@ -376,6 +392,8 @@
 				340793A71EAA0C2C00AF184A /* POPProgressViewController.m */,
 				3468D2FB1EADF7E30047C095 /* CAEmitterLayerViewController.h */,
 				3468D2FC1EADF7E30047C095 /* CAEmitterLayerViewController.m */,
+				3412E2FF1EB0758000D8DFA1 /* WaterWaveViewController.h */,
+				3412E3001EB0758000D8DFA1 /* WaterWaveViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -614,6 +632,7 @@
 				3404DF531E97376E002B9F94 /* MPPushViewController.m in Sources */,
 				348CC9D81C6F7A9F005DC8FE /* ViewController.m in Sources */,
 				340793A81EAA0C2C00AF184A /* POPProgressViewController.m in Sources */,
+				3412E3011EB0758000D8DFA1 /* WaterWaveViewController.m in Sources */,
 				3430C83B1E95EF3300E0D3C6 /* MPScaleViewController.m in Sources */,
 				340793A51EA9EBD000AF184A /* POPProgressBarViewController.m in Sources */,
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
@@ -632,6 +651,7 @@
 				340793B51EAA0CC900AF184A /* BLEProgressView.m in Sources */,
 				340793B31EAA0CC900AF184A /* BLEProgressBaseView.m in Sources */,
 				34B846131EA4648E007F79FC /* POPCALayerMaskViewController.m in Sources */,
+				3412E2FE1EB0750800D8DFA1 /* YDWaveLoadingView.m in Sources */,
 				3416E1951E94D3CD00F3A678 /* RYCuteView.m in Sources */,
 				3402BF071E45C1710023D97F /* POPTableViewController.m in Sources */,
 				340494931C72EA7400D6120F /* POPDecayAnimationViewController.m in Sources */,
