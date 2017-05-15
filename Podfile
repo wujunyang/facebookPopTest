@@ -4,4 +4,7 @@ target 'popTest' do
 pod 'pop', '~> 1.0'
 pod 'Masonry','~>0.6.1'
 pod 'MJRefresh'
+pod "JazzHands"
+pod 'Shimmer'
+
 end

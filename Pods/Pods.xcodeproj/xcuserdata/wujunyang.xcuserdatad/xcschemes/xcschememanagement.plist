@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JazzHands.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +20,11 @@
 			<false/>
 		</dict>
 		<key>Pods-popTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Shimmer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2AAF92D521D74CD2A2F8B9EEF70FE12D</key>
+		<key>3C2C8ABCF38F3D54BD70857655C1C393</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4262BBA69037616CAFAC960466AF77B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48D155D3BAB7E983EF1C569E4FB109DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83024FF6A503ACE4372DE23DCC0194E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF32709E8B22424B02C6803A718901BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -194,6 +194,12 @@
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
+        case 21:
+        {
+//            JazzHandsExampleViewController *vc=[[JazzHandsExampleViewController alloc]init];
+//            [self.navigationController pushViewController:vc animated:YES];
+//            break;
+        }
         default:
             break;
     }

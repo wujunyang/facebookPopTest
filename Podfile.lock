@@ -1,18 +1,24 @@
 PODS:
+  - JazzHands (2.0.8)
   - Masonry (0.6.4)
   - MJRefresh (3.1.12)
   - pop (1.0.9)
+  - Shimmer (1.0.2)
 
 DEPENDENCIES:
+  - JazzHands
   - Masonry (~> 0.6.1)
   - MJRefresh
   - pop (~> 1.0)
+  - Shimmer
 
 SPEC CHECKSUMS:
+  JazzHands: 355dc5c2b6fc38ee460d0ed7836c69539263f477
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
 
-PODFILE CHECKSUM: 7b80cfaa1f9b9717b1946de22cbcaa9dc799107f
+PODFILE CHECKSUM: f5ae00ff270e7b324aac1fd1a7f4f29c847b0198
 
 COCOAPODS: 1.2.0.beta.1
