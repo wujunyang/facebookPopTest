@@ -49,6 +49,7 @@
 		348CC9F61C6F7A9F005DC8FE /* popTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC9F51C6F7A9F005DC8FE /* popTestUITests.m */; };
 		34B846131EA4648E007F79FC /* POPCALayerMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */; };
 		34B846161EA46A93007F79FC /* TNActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B846151EA46A93007F79FC /* TNActivityIndicator.m */; };
+		34D5A1741ECE83650093FAE0 /* ReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5A1731ECE83650093FAE0 /* ReplicatorLayerViewController.m */; };
 		34DDC5DD1C71B8E0004C6798 /* POPBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */; };
 		34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A61C71F566006C692C /* POPSpringAnimationViewController.m */; };
 		34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E635A91C7205B1006C692C /* OtherViewController.m */; };
@@ -162,6 +163,8 @@
 		34B846121EA4648E007F79FC /* POPCALayerMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPCALayerMaskViewController.m; sourceTree = "<group>"; };
 		34B846141EA46A93007F79FC /* TNActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNActivityIndicator.h; sourceTree = "<group>"; };
 		34B846151EA46A93007F79FC /* TNActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNActivityIndicator.m; sourceTree = "<group>"; };
+		34D5A1721ECE83650093FAE0 /* ReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		34D5A1731ECE83650093FAE0 /* ReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerViewController.m; sourceTree = "<group>"; };
 		34DDC5DB1C71B8E0004C6798 /* POPBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationViewController.h; sourceTree = "<group>"; };
 		34DDC5DC1C71B8E0004C6798 /* POPBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPBasicAnimationViewController.m; sourceTree = "<group>"; };
 		34E635A51C71F566006C692C /* POPSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationViewController.h; sourceTree = "<group>"; };
@@ -394,6 +397,8 @@
 				3468D2FC1EADF7E30047C095 /* CAEmitterLayerViewController.m */,
 				3412E2FF1EB0758000D8DFA1 /* WaterWaveViewController.h */,
 				3412E3001EB0758000D8DFA1 /* WaterWaveViewController.m */,
+				34D5A1721ECE83650093FAE0 /* ReplicatorLayerViewController.h */,
+				34D5A1731ECE83650093FAE0 /* ReplicatorLayerViewController.m */,
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -638,6 +643,7 @@
 				34EF0B1F1C773D1D007ED8FA /* CoreAnimationViewController.m in Sources */,
 				348CC9D51C6F7A9F005DC8FE /* AppDelegate.m in Sources */,
 				3430C8341E95E98700E0D3C6 /* YQDownloadButton.m in Sources */,
+				34D5A1741ECE83650093FAE0 /* ReplicatorLayerViewController.m in Sources */,
 				3430C8381E95E9E000E0D3C6 /* MPDownloadViewController.m in Sources */,
 				34E635AA1C7205B1006C692C /* OtherViewController.m in Sources */,
 				34E635A71C71F566006C692C /* POPSpringAnimationViewController.m in Sources */,
