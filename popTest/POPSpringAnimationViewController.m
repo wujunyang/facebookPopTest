@@ -83,9 +83,6 @@
         [self.view addSubview:self.myButton];
     }
 
-    //111111
-    
-    //222222
 }
 
 - (void)didReceiveMemoryWarning {
