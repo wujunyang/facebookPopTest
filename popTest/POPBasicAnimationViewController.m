@@ -177,7 +177,6 @@
         anim.toValue = [NSValue valueWithCGPoint:CGPointMake(2.0, 2.0)];
     }
     
-    
     anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];  //不同的类型 心跳会不一样
     
     self.animated = !self.animated;
